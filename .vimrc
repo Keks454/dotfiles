@@ -80,7 +80,9 @@ set autoread
 set showmode
 set showcmd
 set incsearch
-set nohlsearch
+" set nohlsearch
+set noswapfile
+set showmatch
 
 set mouse=a
 
@@ -103,3 +105,5 @@ set list listchars=tab:»·,trail:·
 highlight SpecialKey ctermfg=red guifg=red
 
 autocmd Filetype make setlocal noexpandtab
+
+noremap Y y$
