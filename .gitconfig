@@ -1,0 +1,9 @@
+[user]
+	name = Kevin TAN
+	email = kevin.tan@epita.fr
+[http]
+	# sslVerify = false
+	sslVerify = true
+	sslCAinfo = /etc/ssl/certs/ca-certificates.crt
+[core]
+	excludesfile = /home/keks/.gitignore_global
