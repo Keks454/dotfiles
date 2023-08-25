@@ -18,7 +18,7 @@ exec --no-startup-id xcompmgr -cfn
 
 # exec polybar dunst and picom
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_aways --no-startup-id dunst -config ~/.config/dunst/dunstrc
+exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
 exec picom --config ~/.config/picom/picom.conf
 
 bindsym $mod+x exec opera
